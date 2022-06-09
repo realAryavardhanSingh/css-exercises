@@ -1,0 +1,42 @@
+body {
+  display: flex;
+}
+
+div {
+  border: 2px solid lightblue;
+  padding: 3px;
+  text-align: center;
+  display: flex;
+}
+
+.one {
+  flex: 1 1 auto;
+}
+
+.two {
+  flex: 1 1 auto;
+}
+
+.three {
+  flex: 2 1 auto;
+}
+
+.abc {
+  width: 100px;
+  height: auto;
+  flex: 1 1 auto;
+  align-self: flex-start;
+}
+
+.bcd {
+  width: 100px;
+  height: auto;
+  flex: 1 1 auto;
+  align-self: flex-start;
+}
+
+.cde {
+  width: 100px;
+  height: auto;
+  flex: 2 1 auto;
+}
